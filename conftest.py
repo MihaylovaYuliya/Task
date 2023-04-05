@@ -31,3 +31,4 @@ def browser(request):
     yield browser
     print("\nquit browser..")
     browser.quit()
+    # при запуске используйте :pytest --language=fr --browser_name=chrome test_items.py
